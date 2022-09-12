@@ -18,10 +18,17 @@ Pour se faire, il faut suivre les indications fournies ici >> [OCMovies-AP](http
 ## Mettre les fichiers index.html, main.js et style.css dans le bon dossier
 Ces 3 fichiers doivent se trouver à la racine du dossier de API OCMovies (au même niveau donc que manage.py)
 
-## Lancer le serveur
-Avant d'ouvrir le fichier index.html dans votre navigateur, il faudra lancer le serveur dans le terminal
-```console
-python manage.py runserver
+## Activer l'environement virtuel que vous avez installé avec l'API OCMovies
 ```
+source env/bin/activate
+```
+
+## Lancer le serveur
+```
+python3 manage.py runserver
+```
+
+## Ouvrir le fichier index.html dans un navigateur
+
 
 
